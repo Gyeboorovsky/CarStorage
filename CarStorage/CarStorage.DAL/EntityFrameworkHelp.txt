@@ -1,0 +1,3 @@
+﻿//Command for Scaffolding existing DB:
+
+Scaffold-DbContext -project CarStorage.DAL "Server=.;Database=CarStorage;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DataModel -UseDatabaseNames -NoOnConfiguring -NoPluralize -force -Context CarStorageContext -StartupProject CarStorage.DAL
